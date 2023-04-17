@@ -36,12 +36,12 @@
 
 用手机浏览器打开上面的网址后，会弹出添加桌面图标的提示，生成一个桌面图标。
 
-<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/icon.jpg" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/icon.jpg" width="100" height="100" />
 
 首页
 
-<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/start.jpg" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/start.jpg" width="300" height="600" />
 
 聊天页面
 
-<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/chat.jpg" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/chat.jpg" width="300" height="600" />
