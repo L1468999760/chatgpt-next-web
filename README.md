@@ -18,7 +18,7 @@
 
 我部署的网页地址[chatgpt-next-web-pi-ecru.vercel.app](https://chatgpt-next-web-pi-ecru.vercel.app/)，登录秘钥可以私信联系。
 
-##### PC端界面
+#### PC端界面
 
 首页
 
@@ -30,9 +30,9 @@
 
 进行正常聊天
 
+![聊天](https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/chatPC.png)
 
-
-##### 移动端界面
+#### 移动端界面
 
 用手机浏览器打开上面的网址后，会弹出添加桌面图标的提示，生成一个桌面图标。
 
