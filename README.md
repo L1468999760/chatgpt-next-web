@@ -22,11 +22,11 @@
 
 首页
 
-![首页](\pic\main.png)
+![首页](https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/main.png)
 
 在设置界面添加访问密码或者API Key
 
-![设置](\pic\key.png)
+![设置](https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/key.png)
 
 进行正常聊天
 
@@ -36,12 +36,12 @@
 
 用手机浏览器打开上面的网址后，会弹出添加桌面图标的提示，生成一个桌面图标。
 
-<img src="\pic\icon.jpg" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/icon.jpg" style="zoom:33%;" />
 
 首页
 
-<img src="\pic\start.jpg" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/start.jpg" style="zoom: 25%;" />
 
 聊天页面
 
-<img src="\pic\chat.jpg" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/chat.jpg" style="zoom:25%;" />
