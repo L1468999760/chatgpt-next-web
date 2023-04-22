@@ -18,6 +18,8 @@
 
 我部署的网页地址[chatgpt-next-web-pi-ecru.vercel.app](https://chatgpt-next-web-pi-ecru.vercel.app/)，登录秘钥可以私信联系。
 
+由于vercel.app被DNS污染，国内无法访问，我又绑定了一个自己的域名[chatgpt.lijinning.top](https://chatgpt.lijinning.top)，该地址可以直接访问。
+
 #### PC端界面
 
 首页
