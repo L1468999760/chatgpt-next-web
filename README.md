@@ -47,3 +47,55 @@
 聊天页面
 
 <img src="https://raw.githubusercontent.com/L1468999760/chatgpt-next-web/main/pic/chat.jpg" width="300" height="600" />
+
+## 其它应用
+
+使用OpenAI API Key还可以做很多有趣的事情。
+
+#### 代码翻译
+
+> 参考开源项目[https://github.com/mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator)
+
+将代码从一种语言翻译成另外一种语言。主要通过加入上下文信息，调用接口让AI实现翻译。
+
+<img src="https://s2.loli.net/2023/05/03/fOWbiBV3gw5J8oN.png" width="540" height="400" >
+
+如图所示，提前构造情景，让AI实现代码翻译功能，以下是效果展示：
+
+<img src="https://s2.loli.net/2023/05/03/3ipvGmatB8OqVDK.png" >
+
+我部署的服务地址，已经内置了秘钥，可以直接使用。
+
++ [code-translator.lijinning.top](https://code-translator.lijinning.top/)
+
+#### ChatPDF
+
+顾名思义，与PDF对话o(>_<)o。上传PDF文件后，向ChatGPT提问关于文件中的内容，AI给出回答。如果后续模型进一步增强，简直读论文神器哈哈。
+
+基本原理：
+
++ 读取PDF文档，并对内容进行分割
++ 对于每段文本，使用Embedding模型生成特征向量
++ 将向量和文本对应关系存入本地文件
++ 对用户输入生成向量
++ 在数据库中进行最近邻搜索，返回最相似的文本列表
++ 设计Prompt（提示语），让ChatGPT基于最相似的文件列表给出回答
+
+详细原理解释[How to Code a Project like ChatPDF?](https://postor.medium.com/how-to-code-a-project-like-chatpdf-e40441cb4168)
+
+github上相关的代码很多，记录一个用的多的地址，需要科学上网访问。
+
++ [https://www.chatpdf.com/](https://www.chatpdf.com/)
+
+<img src="https://s2.loli.net/2023/05/03/V2t8KkSTzxAMZaf.png" >
+
+#### 真人对话
+
+通过ChatGPT和Whisper语音识别，实现真人对话。
+
+体验地址：
+
++ [https://huggingface.co/spaces/JavaFXpert/Chat-GPT-LangChain](https://huggingface.co/spaces/JavaFXpert/Chat-GPT-LangChain)
+
+<img src="https://s2.loli.net/2023/05/03/jC7M9KhgmGvwWXn.png" >
+
