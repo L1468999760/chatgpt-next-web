@@ -223,7 +223,7 @@ export function Settings(props: { closeSettings: () => void }) {
             </Popover>
           </SettingItem>
 
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
               checkingUpdate
@@ -246,7 +246,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem title={Locale.Settings.SendKey}>
             <select
@@ -440,9 +440,7 @@ export function Settings(props: { closeSettings: () => void }) {
               }
             ></input>
           </SettingItem>
-        </List>
 
-        <List>
           <SettingItem
             title={Locale.Settings.Prompt.Disable.Title}
             subTitle={Locale.Settings.Prompt.Disable.SubTitle}
@@ -458,7 +456,9 @@ export function Settings(props: { closeSettings: () => void }) {
               }
             ></input>
           </SettingItem>
+        </List>
 
+        {/* <List>
           <SettingItem
             title={Locale.Settings.Prompt.List}
             subTitle={Locale.Settings.Prompt.ListCount(
@@ -472,7 +472,7 @@ export function Settings(props: { closeSettings: () => void }) {
               onClick={() => showToast(Locale.WIP)}
             />
           </SettingItem>
-        </List>
+        </List> */}
 
         <List>
           <SettingItem title={Locale.Settings.Model}>
