@@ -42,6 +42,7 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script defer src="https://traffic.lijinning.top/script.js" data-website-id="8624c43b-abf8-4c96-b43a-9d7380c10f49"></script>
       </head>
       <body>{children}</body>
     </html>
