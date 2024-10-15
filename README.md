@@ -20,6 +20,8 @@
 
 由于vercel.app被DNS污染，国内无法访问，我又绑定了一个自己的域名[chatgpt.lijinning.top](https://chatgpt.lijinning.top)，该地址可以直接访问。
 
+> 引流一个获得免费API Key的地址：https://github.com/chatanywhere/GPT_API_free
+
 #### PC端界面
 
 首页
