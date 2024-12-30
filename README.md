@@ -16,7 +16,11 @@
 
 ## 效果展示
 
-我部署的网页地址[chatgpt-next-web-pi-ecru.vercel.app](https://chatgpt-next-web-pi-ecru.vercel.app/)，登录秘钥可以私信联系。
+我部署的网页地址[chatgpt-next-web-pi-ecru.vercel.app](https://chatgpt-next-web-pi-ecru.vercel.app/)，登录秘钥可以私信联系or通过以下命令获取。
+
+```shell
+echo 'am5saTE5OTgK' | base64 --decode
+```
 
 由于vercel.app被DNS污染，国内无法访问，我又绑定了一个自己的域名[chatgpt.lijinning.top](https://chatgpt.lijinning.top)，该地址可以直接访问。
 
